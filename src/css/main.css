@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 * {
   box-sizing: border-box;
@@ -6,3 +7,15 @@
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
 }   
+=======
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Vazirmatn", "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+>>>>>>> b7d9917 (create files and edit index)

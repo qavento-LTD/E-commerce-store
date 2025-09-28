@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
     width: 100%;
     margin: 0 auto;
@@ -43,4 +44,68 @@ nav{
 .menu {
 
     cursor: pointer;
+=======
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px #ddd;
+  padding: 10px 20px;
+  margin: 8px;
+  border-radius: 16px;
+}
+
+nav{
+  position: fixed;
+  top: 0;right: 0;bottom: 0;left: 100%;
+  background: white;
+  box-shadow: 0 0 10px #ddd;
+  transition: 0.1s ease;
+  margin-top: 76px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  margin-left: 8px;
+  border-radius: 16px;
+  
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 30px;
+  margin: 70px 20px 0 0;
+  
+}
+nav ul li{
+  list-style: none;
+  transition: 0.3s ease all;
+  text-align: right;
+}
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  
+  
+}
+
+.icons, .icon{
+  display: flex;
+  gap: 16px;
+  margin-top: 4px;
+}
+.menu img{
+  position: relative;
+  cursor: pointer;
+  z-index: 10;
+  margin-top: 4px;
+}
+
+
+
+.logo a{
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 24px;
+>>>>>>> b7d9917 (create files and edit index)
 }

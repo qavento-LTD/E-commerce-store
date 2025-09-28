@@ -1,0 +1,41 @@
+.search{
+  width: 100%;
+}
+.search img{
+  position: relative;
+cursor: pointer;
+}
+.search_txt{
+  position: fixed;
+  right: 0;left: 0;
+  background: white;
+  box-shadow: 0 0 10px #ddd;
+  margin: 8px;
+  margin-top: 16px;
+  border-radius: 16px;
+  padding: 16px 24px;
+  transition: .10s ease;
+  z-index: -1;
+}
+.search_txt input{
+  border: none;
+  border-bottom: 1px solid #ddd;
+  padding: 8px 16px;
+  outline: none;
+  width: 100%;
+  color: black;
+  transition: .1s ease;
+}
+.search_txt input:focus{
+  border-bottom: 2px solid #42445A;
+}
+
+.searching:empty::after{
+  content: "Find the product you want";
+  color: #CDCDCD;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  z-index: 7;
+  margin-top: 8px;
+}
