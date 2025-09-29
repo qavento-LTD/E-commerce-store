@@ -2,23 +2,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 0 10px #ddd;
+  background: #FCFCFC;
   padding: 10px 20px;
-  margin: 8px;
-  border-radius: 16px;
+  z-index: 50;
+  position: fixed;
+  right: 0;left: 0;top: 0;
+  box-shadow: 0 0 10px #ddd;
 }
 
 nav{
   position: fixed;
-  top: 0;right: 0;bottom: 0;left: 100%;
-  background: white;
-  box-shadow: 0 0 10px #ddd;
+  top: 0;right: 0;bottom: 0;left: 30%;
+  box-shadow: 0 0 4px #ddd;
   transition: 0.1s ease;
-  margin-top: 76px;
-  margin-bottom: 8px;
-  margin-right: 8px;
-  margin-left: 8px;
-  border-radius: 16px;
+  background: #FFFFFF;
   
 }
 nav ul{

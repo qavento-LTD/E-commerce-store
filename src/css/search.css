@@ -1,21 +1,15 @@
-.search{
-  width: 100%;
-}
-.search img{
-  position: relative;
+.sreach img{
 cursor: pointer;
 }
 .search_txt{
   position: fixed;
   right: 0;left: 0;
   background: white;
-  box-shadow: 0 0 10px #ddd;
-  margin: 8px;
-  margin-top: 16px;
-  border-radius: 16px;
+  box-shadow: 0 0 4px #ddd;
   padding: 16px 24px;
   transition: .10s ease;
   z-index: -1;
+  max-width: 400px;
 }
 .search_txt input{
   border: none;
